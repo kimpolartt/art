@@ -21,7 +21,7 @@ ${teks}
 • 🧬LEVEL BARU : ${user.level}
 • 🧬ROLE KAMU : ${user.role}
 • PADA JAM : ${new Date().toLocaleString('id-ID')}
-*_Semakin sering berinteraksi dengan Bot Semakin Tinggi level kamu >�<_*
+*_Semakin sering berinteraksi dengan Bot Semakin Tinggi level kamu >�<_*
 `.trim()
         try {
             const img = await levelup(teks, user.level)
